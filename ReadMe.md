@@ -1,4 +1,4 @@
-![wallpaper heroes](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/wallpaper heroes.jpg)
+![wallpaper heroes](https://github.com/Jorditm/ProjectM1-superheroes/blob/master/images/wallpaper%20heroes.jpg)
 
 # Heroes & Villains
 
@@ -19,9 +19,9 @@ Create a page with all the universes (Marvel, DC, Star Trek, Star Wars, etc.) an
 
 ## Wireframes
 
-![MVP](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/MVP.png)
+![MVP](https://github.com/Jorditm/ProjectM1-superheroes/blob/master/images/MVP.png)
 
-![Backlog](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/Backlog.png)
+![Backlog](https://github.com/Jorditm/ProjectM1-superheroes/blob/master/images/Backlog.png)
 
 ## Data structure
 
