@@ -46,17 +46,17 @@ Create a page with all the universes (Marvel, DC, Star Trek, Star Wars, etc.) an
 
 ## API
 
-[Trello Kanban board] (https://superheroapi.com/index.html)
+[SuperHero API](https://superheroapi.com/index.html)
 
 ## Links
 
 ### Trello
 
-https://trello.com/b/Do9COfrX
+[Trello Kanban board](https://trello.com/b/Do9COfrX)
 
 ### Github
 
-[Gihub Repo URL] (https://github.com/Jorditm/ProjectM1-superheroes)
+[Gihub Repo URL](https://github.com/Jorditm/ProjectM1-superheroes)
 
 ### Slides
 
