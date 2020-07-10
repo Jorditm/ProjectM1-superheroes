@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
   <body>
-<img src="/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/wallpaper\heroes.jpg">
+    <section>
+      <img src="https://github.com/Jorditm/ProjectM1-superheroes/blob/master/images/wallpaper%20heroes.jpg">
+      <h1>Heroes & Villains</h1>
+      <hr>
+    </section>
+    
+    <section>
+    <h2>Description</h2>
+    <hr>
+    <p>My website is set on the theme of superheroes and villains of all time, it is a search engine for these words</p>
+    </section> 
 
-<h1>Heroes & Villains</h1>">
 
-<hr>
 
-<h2>Description</h2>
-
-<hr>
-<p>My website is set on the theme of superheroes and villains of all time, it is a search engine for these words</p>
 
 <h2> MVP (Minimum Viable Product)</h2>
 
