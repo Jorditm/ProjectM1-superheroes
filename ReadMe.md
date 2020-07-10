@@ -1,13 +1,16 @@
-![wallpaper heroes](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/wallpaper heroes.jpg)
+<!DOCTYPE html>
+<html>
+  <body>
+<img src="/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/wallpaper\heroes.jpg">
 
-<h1>Heroes & Villains</h1>
+<h1>Heroes & Villains</h1>">
 
 <hr>
 
 <h2>Description</h2>
 
 <hr>
-<p>Mi web está ambientada en la temática de superheroes y villanos de todos los tiempos, se trata de un buscador por palabras de estos</p>
+<p>My website is set on the theme of superheroes and villains of all time, it is a search engine for these words</p>
 
 <h2> MVP (Minimum Viable Product)</h2>
 
@@ -15,10 +18,10 @@
 
 <section> 
   <ul>
-   <li><b>Dashboard:</b> Página principal con un fondo de pantalla, una breve explciación y un carrousel donde vayan apareciendo fotos de los diferentes personajes.</li> 
-    <li><b>Browser:</b> Página donde estén todos los personajes y haya una barra de búsqueda donde aparezcan los héroes o heroe que se busque</li>
-    <li><b>Sign Up:</b> Página de registro de usuarios donde pide nombre(super-name), personaje favorito, email, contraseña y repetir contraseña</li>
-    <li><b>Log in:</b> Página donde pida email y contraseña</li>
+   <li><b>Dashboard: </b> Main page with a wallpaper, a brief explanation and a carousel where photos of the different characters appear.</li> 
+    <li><b>Browser:</b> Page where all the characters are and there is a search bar where the heroes or hero you are looking for appear.</li>
+    <li><b>Sign Up:</b> User registration page where you ask for name (super-name), favorite character, email, password and repeat password.</li>
+    <li><b>Log in:</b> Page where you ask for email and password.</li>
   </ul>
 
 
@@ -33,7 +36,7 @@ Crear una página con todas los universos (Marvel, DC, Star Trek, Star Wars, etc
 
 
 
-<h2>Wireframes
+<h2>Wireframes</h2>
 
 <hr>
 
@@ -69,7 +72,7 @@ Crear una página con todas los universos (Marvel, DC, Star Trek, Star Wars, etc
 <hr>
 
 <P>
-  https://superheroapi.com/index.html
+  agrergarhttps://superheroapi.com/index.html
 </P>
 
 
@@ -86,4 +89,5 @@ https://trello.com/b/Do9COfrX
 https://github.com/Jorditm/ProjectM1-superheroes
 
 <h3> Slides</h3>
-
+</body>
+</html>
