@@ -1,49 +1,30 @@
 ![wallpaper heroes](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/wallpaper heroes.jpg)
 
-<h1>Heroes & Villains</h1>
+# Heroes & Villains
 
-<hr>
+## Description
 
-<h2>Description</h2>
+My website is set on the theme of superheroes and villains of all time, it is a search engine for these words.
 
-<hr>
-<p>Mi web está ambientada en la temática de superheroes y villanos de todos los tiempos, se trata de un buscador por palabras de estos</p>
+## MVP (Minimum Viable Product)
 
-<h2> MVP (Minimum Viable Product)</h2>
+- __Dashboard:__ Main page with a wallpaper, a brief explanation and a carousel where photos of the different characters appear.
+- __Browser:__ Page where all the characters are and there is a search bar where the heroes or hero you are looking for appear.
+- __Sign Up:__ User registration page where you ask for name (supername), favorite character, email, password and repeat password.
+- __Log in:__ Page where you ask for email and password.
 
-<hr>
+## Backlog
 
-<section> 
-  <ul>
-   <li><b>Dashboard:</b> Página principal con un fondo de pantalla, una breve explciación y un carrousel donde vayan apareciendo fotos de los diferentes personajes.</li> 
-    <li><b>Browser:</b> Página donde estén todos los personajes y haya una barra de búsqueda donde aparezcan los héroes o heroe que se busque</li>
-    <li><b>Sign Up:</b> Página de registro de usuarios donde pide nombre(super-name), personaje favorito, email, contraseña y repetir contraseña</li>
-    <li><b>Log in:</b> Página donde pida email y contraseña</li>
-  </ul>
+Create a page with all the universes (Marvel, DC, Star Trek, Star Wars, etc.) and click on one to redirect it to another page where all the characters of that universe and their details are.
 
+## Wireframes
 
+![MVP](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/MVP.png)
 
-<h2>Backlog
+![Backlog](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/Backlog.png)
 
- <hr>
+## Data structure
 
-<p> 
-Crear una página con todas los universos (Marvel, DC, Star Trek, Star Wars, etc) y al clickar en uno redirigirlo a otra pagina donde estén todos los personajes de ese universo y su detalles
-</p>
-
-
-
-<h2>Wireframes
-
-<hr>
-
-![Captura de pantalla 2020-07-10 a las 13.35.23](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/Captura de pantalla 2020-07-10 a las 13.35.23.png)
-
-![Captura de pantalla 2020-07-10 a las 13.35.37](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProyectoM1/images/Captura de pantalla 2020-07-10 a las 13.35.37.png)
-
-<h2>Data structure
-
-<hr>
 **root/**
 
 - index.html
@@ -51,39 +32,31 @@ Crear una página con todas los universos (Marvel, DC, Star Trek, Star Wars, etc
 - browser.html
 - login.html
 - signup.html
-- css/
+- **css/**
   - style.css
-- js/
+- **js/**
   - main.js
   - Signup.js
   - User.js
   - Validator.js
-  - superheroesApi.js
-- assets/
+  - superheroapi.js
+- **assets/**
   - img/
   - fonts/
 
+## API
 
-<h2>APIs</h2>
+[Trello Kanban board] (https://superheroapi.com/index.html)
 
-<hr>
+## Links
 
-<P>
-  https://superheroapi.com/index.html
-</P>
-
-
-<h2>Links
-
-<hr>
-
-<h3>Trello</h3>
+### Trello
 
 https://trello.com/b/Do9COfrX
 
-<h3> Github</h3>
+### Github
 
-https://github.com/Jorditm/ProjectM1-superheroes
+[Gihub Repo URL] (https://github.com/Jorditm/ProjectM1-superheroes)
 
-<h3> Slides</h3>
+### Slides
 
