@@ -1,0 +1,384 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #1a1a1a;
+  --red-color: #e3350d;
+  --red-color: #ff6541;
+  --white-color: #fff;
+}
+
+body {
+  font-family: "Bangers", cursive;
+  font-weight: 400;
+  line-height: normal;
+  background-image: url(/root/assets/img/background-pop.png);
+  background-size: cover;
+}
+
+main {
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 25px;
+}
+
+a:hover {
+  color: var(--red-color);
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--text-color);
+  font-size: 30px;
+  border-bottom: 3px solid var(--red-color);
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+h3 {
+  color: var(--red-color);
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+input {
+  margin: 10px;
+  height: 40px;
+  border: none;
+  border-bottom: solid 2px var(--red-color);
+  text-align: center;
+}
+
+input:focus {
+  border-bottom: solid 2px var(--text-color);
+  outline-color: #ff6541;
+}
+
+button,
+.button {
+  height: 40px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 0px var(--red-color);
+}
+
+button:hover,
+.button.hover {
+  background-color: #4e4e4e;
+}
+
+button:disabled,
+.button:disabled {
+  background-color: grey;
+}
+
+body {
+  font-family: "Bangers", cursive;
+  font-weight: 400;
+  line-height: normal;
+}
+nav {
+  position: static;
+  background-image: url(/root/assets/img/background-pop.png);
+  background-size: cover;
+  color: var(--text-color);
+  width: 100%;
+  height: 85px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .navbar-brand {
+  max-width: 175px;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-container {
+  height: 85px;
+}
+
+.nav-container div {
+  display: none;
+}
+
+.nav-menu {
+  padding-right: 10px;
+  float: right;
+}
+
+.nav-menu > li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.nav-menu > li > .selected {
+  color: var(--red-color);
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: block;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding-right: 10px;
+  }
+
+  .nav-container a {
+    padding-bottom: 10px;
+  }
+
+  .nav-container div {
+    display: block;
+  }
+
+  .nav-menu {
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-menu > li {
+    padding: 5px;
+  }
+
+  .hide-menu {
+    display: none;
+  }
+}
+
+/* --- HEADER --- */
+
+.header-section {
+  background: url(/root/assets/img/marvel-wallpapers.jpg) no-repeat center
+    center / cover;
+  height: 90vh;
+  color: var(--white-color);
+  position: relative;
+}
+
+.header-bg {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.header-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-text > p {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header-text {
+    width: 85%;
+  }
+}
+
+/*sign up*/
+
+.signup,
+.login {
+  margin-top: 85px;
+  text-align: center;
+}
+
+.form-wrapper {
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 60vh 60vh 60vh 60vh;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding-bottom: 10%;
+}
+
+/*.balloon{
+    border-radius: 5px;
+    background-color: chocolate;
+    color: floralwhite;
+    padding: 10px;
+    width: 420px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em
+    }
+    
+    .balloon:before {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid chocolate;
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    margin: -30px 0 0 40px;
+    }
+    
+    .clasecualquiera:before {
+    content: 'esto se agregará';
+    color: red;
+    }
+
+    */
+.form-wrapper .logo {
+  width: 65%;
+  max-width: 200px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.signup h2 {
+  color: black;
+  font-size: 8vw;
+  margin: auto;
+}
+
+.form-wrapper h2 {
+  margin: 0 auto 0;
+  line-height: 1.3em;
+  opacity: 0.5;
+}
+
+.form-wrapper form {
+  font-size: 2em;
+  margin: 5%;
+}
+
+.form-wrapper input {
+  text-align: center;
+  width: 90%;
+  padding: 1vh 0;
+  margin: 2% 5%;
+  background: rgb(248, 233, 196);
+  border: 1px solid black;
+  border-radius: 15vw;
+  font-size: 0.6em;
+}
+
+.form-wrapper form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper #over-age {
+  width: 20px;
+  height: 20px;
+  margin: 0 inherit;
+  padding: 0 inherit;
+}
+
+.form-wrapper label {
+  margin-top: 5px;
+  font-size: 0.5em;
+}
+
+.form-wrapper button {
+  margin-top: 3vh;
+  padding: 3%;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 15vw;
+  background: rgb(167, 117, 1);
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 0.8em;
+}
+
+.form-wrapper .button-shape {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  width: 83%;
+  padding: 2.7%;
+  margin: 2% auto;
+  font-size: 1.7em;
+  background: rgb(167, 117, 1);
+  border: 2px solid black;
+  border-radius: 15vw;
+}
+
+.form-wrapper .error p {
+  font-size: 1rem;
+}
+
+.form-wrapper #security-bar {
+  font-size: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .form-wrapper {
+    padding-bottom: 1%;
+  }
+  .form-wrapper h2 {
+    font-size: 4em;
+  }
+
+  .form-wrapper form {
+    font-size: 1.8em;
+  }
+
+  .form-wrapper input {
+    width: 65%;
+    margin: 1vh auto;
+  }
+
+  .form-wrapper button {
+    width: 40%;
+    margin-top: 2%;
+    padding: 5px;
+  }
+
+  .form-wrapper #over-age {
+    margin: 10px;
+  }
+
+  .form-wrapper .button-shape {
+    width: 37%;
+    padding: 5px;
+    font-size: 1.3em;
+  }
+}
