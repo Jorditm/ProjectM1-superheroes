@@ -5,23 +5,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --text-color: #1a1a1a;
-  --red-color: #e3350d;
-  --red-color: #ff6541;
-  --white-color: #fff;
-}
 
 body {
   font-family: "Bangers", cursive;
   font-weight: 400;
   line-height: normal;
-  background-image: url(/root/assets/img/background-pop.png);
+  background-image: url(/assets/img/background-pop.png);
   background-size: cover;
 }
 
 main {
-  padding: 30px;
+  padding: 0px;
 }
 
 .container {
@@ -31,30 +25,27 @@ main {
 
 a {
   text-decoration: none;
-  color: var(--white-color);
+  color: white;
   font-size: 25px;
-}
-
-a:hover {
-  color: var(--red-color);
 }
 
 h1 {
   font-size: 70px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 h2 {
-  color: var(--text-color);
+  color: black;
   font-size: 30px;
-  border-bottom: 3px solid var(--red-color);
+  border-bottom: 3px solid greenyellow;
   display: inline;
   text-transform: uppercase;
   letter-spacing: 6px;
 }
 
 h3 {
-  color: var(--red-color);
+  color: red;
   font-size: 26px;
 }
 
@@ -66,13 +57,7 @@ input {
   margin: 10px;
   height: 40px;
   border: none;
-  border-bottom: solid 2px var(--red-color);
   text-align: center;
-}
-
-input:focus {
-  border-bottom: solid 2px var(--text-color);
-  outline-color: #ff6541;
 }
 
 button,
@@ -82,7 +67,7 @@ button,
   background-color: black;
   color: white;
   border: none;
-  box-shadow: 3px 3px 0px var(--red-color);
+  box-shadow: 3px 3px 0px black;
 }
 
 button:hover,
@@ -102,9 +87,9 @@ body {
 }
 nav {
   position: static;
-  background-image: url(/root/assets/img/background-pop.png);
+  background-image: url(/assets/img/background-pop.png);
   background-size: cover;
-  color: var(--text-color);
+  color: white;
   width: 100%;
   height: 85px;
   z-index: 999;
@@ -139,9 +124,9 @@ nav .navbar-brand {
   font-size: 20px;
   display: inline-block;
 }
-
-.nav-menu > li > .selected {
-  color: var(--red-color);
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
 
 @media (max-width: 768px) {
@@ -184,13 +169,13 @@ nav .navbar-brand {
   }
 }
 
-/* --- HEADER --- */
+/* HEADER  */
 
 .header-section {
-  background: url(/root/assets/img/marvel-wallpapers.jpg) no-repeat center
-    center / cover;
+  background: url(/assets/img/marvel-wallpapers.jpg) no-repeat center center /
+    cover;
   height: 90vh;
-  color: var(--white-color);
+  color: white;
   position: relative;
 }
 
@@ -219,51 +204,22 @@ nav .navbar-brand {
   }
 }
 
-/*sign up*/
+/*Sign Up & Log In*/
 
 .signup,
 .login {
-  margin-top: 85px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .form-wrapper {
   margin: auto;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 60vh 60vh 60vh 60vh;
-  border: 2px solid black;
-  background-color: rgba(255, 255, 255, 0.85);
   padding-bottom: 10%;
+  position: relative;
+  height: 150px;
+  width: 300px;
 }
 
-/*.balloon{
-    border-radius: 5px;
-    background-color: chocolate;
-    color: floralwhite;
-    padding: 10px;
-    width: 420px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 2em
-    }
-    
-    .balloon:before {
-    content:"";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 20px solid chocolate;
-    border-right: 18px solid transparent;
-    border-left: 18px solid transparent;
-    margin: -30px 0 0 40px;
-    }
-    
-    .clasecualquiera:before {
-    content: 'esto se agregará';
-    color: red;
-    }
-
-    */
 .form-wrapper .logo {
   width: 65%;
   max-width: 200px;
@@ -280,7 +236,7 @@ nav .navbar-brand {
 .form-wrapper h2 {
   margin: 0 auto 0;
   line-height: 1.3em;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .form-wrapper form {
@@ -290,13 +246,15 @@ nav .navbar-brand {
 
 .form-wrapper input {
   text-align: center;
-  width: 90%;
-  padding: 1vh 0;
-  margin: 2% 5%;
-  background: rgb(248, 233, 196);
-  border: 1px solid black;
-  border-radius: 15vw;
+  position: relative;
+  height: 60px;
   font-size: 0.6em;
+  transform: rotate(2deg);
+  padding: 0 5px;
+  float: right;
+  background: #ddd;
+  border: 1px solid #222;
+  box-shadow: 3px 3px 0 #222;
 }
 
 .form-wrapper form div {
@@ -318,13 +276,12 @@ nav .navbar-brand {
 }
 
 .form-wrapper button {
-  margin-top: 3vh;
-  padding: 3%;
-  width: 90%;
   border: 2px solid black;
   border-radius: 15vw;
-  background: rgb(167, 117, 1);
-  font-family: "Allerta Stencil", sans-serif;
+  padding: 0.2em;
+  background: rgb(255, 255, 255);
+  font-family: "Bangers", cursive;
+  color: black;
   font-size: 0.8em;
 }
 
@@ -336,7 +293,7 @@ nav .navbar-brand {
   padding: 2.7%;
   margin: 2% auto;
   font-size: 1.7em;
-  background: rgb(167, 117, 1);
+  background: rgb(0, 0, 0);
   border: 2px solid black;
   border-radius: 15vw;
 }
@@ -362,12 +319,12 @@ nav .navbar-brand {
   }
 
   .form-wrapper input {
-    width: 65%;
-    margin: 1vh auto;
+    width: 90%;
+    margin: 2% 5%;
   }
 
   .form-wrapper button {
-    width: 40%;
+    width: 42%;
     margin-top: 2%;
     padding: 5px;
   }
@@ -380,5 +337,73 @@ nav .navbar-brand {
     width: 37%;
     padding: 5px;
     font-size: 1.3em;
+  }
+}
+
+.message-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.message-container p {
+  background-color: red;
+  padding: 20px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 100%;
+  box-shadow: 0 0 10px #5d4d00;
+}
+
+.message-container p.correct-message {
+  background-color: rgb(47, 164, 93);
+  box-shadow: 0 0 10px #dbf1c1;
+}
+
+/* Carousel */
+
+#carousel {
+  padding: 10vh 0;
+}
+
+#carousel .carousel-item {
+  width: 100vw;
+  height: auto;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* BROWSER */
+
+/* Style the search box inside the navigation bar */
+.searchBar {
+  width: 100%;
+}
+.searchBar input[type="text"] {
+  width: 30%;
+  border: none;
+  display: block;
+  margin-top: 8px;
+  margin-left: 35%;
+  font-size: 18px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 768px) {
+  .searchBar input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .searchBar input[type="text"] {
+    border: 1px solid #ccc;
   }
 }
