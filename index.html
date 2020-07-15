@@ -25,50 +25,64 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/burger-menu-icon.css" />
     <title>SuperHereo & Villains</title>
   </head>
 
   <body>
     <header>
-      <div class="menu-bar">
-        <a href="#" class="btn-menu">
-          <i class="fas fa-bars"></i>
-          <a href="#" class="btn-menu">Menu</a>
-        </a>
-      </div>
-      <nav role="navigation" class="main-nav">
-        <div class="nav-container"><a href="index.html"><img src="/assets/img/Heroes_V_Villains_Logo_white.png" alt="Logo" class="navbar-brand"/></a>
-        </div>
-        <div>
-          <ul class="nav-menu hide-menu" id="nav-menu">
+      <div class="overlay-navigation">
+        <nav role="navigation">
+          <ul class="nav-menu">
             <!-- NAV BUTTONS-->
             <li><a href="index.html">Home</a></li>
             <li><a href="browser.html">Browser</a></li>
             <li><a href="login.html">Log In</a></li>
             <li><a href="signup.html">Sign Up</a></li>
           </ul>
+        </nav>
+      </div>
+
+      <section class="home">
+        <div class="open-overlay">
+          <span class="bar-top"></span>
+          <span class="bar-middle"></span>
+          <span class="bar-bottom"></span>
         </div>
-      </nav>
+      </section>
 
       <section class="header-section">
         <div class="header-bg"></div>
         <div class="header-text">
+          <img
+            src="/assets/img/Heroes_V_Villains_Logo_white_noletter.png"
+            alt="Logo"
+            class="navbar-brand"
+          />
           <h1>Heroes & Villains</h1>
           <p>Browse your favorite character<br /></p>
         </div>
       </section>
     </header>
-    <section>
-      <div>
-        <p>
-          <h2>TEXTO DE PRUEBA</h2>
-          <h2>TEXTO DE PRUEBA</h2>
-          <h2>TEXTO DE PRUEBA</h2>
-        </p>
-      </div>
-    </section>
+
     <main>
+      <section class="mid-text">
+        <div>
+          <h2>Do you like comics?</h2>
+          <p>Find your favorite character among 600 files</p>
+        </div>
+        <div>
+          <h2>All universe</h2>
+          <p>All characters of all worlds are here</p>
+        </div>
+        <div>
+          <h2>Old & New</h2>
+          <p>
+            Everything counts, there are characters from the old school and the
+            new school
+          </p>
+        </div>
+      </section>
+
       <section id="carousel">
         <div
           id="carouselExampleIndicators"
@@ -145,6 +159,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/dashboard.js"></script>
+    <script src="/js/navbar.js"></script>
   </body>
 </html>
