@@ -1,4 +1,4 @@
-![wallpaper heroes](https://github.com/Jorditm/ProjectM1-superheroes/blob/master/assets/img/wallpaper%20heroes.jpg)
+![wallpaper heroes](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProjectM1-superheroes/assets/img/wallpaper heroes.jpg)
 
 # Heroes & Villains
 
@@ -19,27 +19,28 @@ Create a page with all the universes (Marvel, DC, Star Trek, Star Wars, etc.) an
 
 ## Wireframes
 
-![MVP](https://github.com/Jorditm/ProjectM1-superheroes/blob/master/assets/img/MVP.png)
+![MVP](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProjectM1-superheroes/assets/img/MVP.png)
 
-![Backlog](https://github.com/Jorditm/ProjectM1-superheroes/blob/master/assets/img/Backlog.png)
+![Backlog](/Users/jorditorrasmellado/Documents/Ironhack/Proyectos/ProjectM1-superheroes/assets/img/Backlog.png)
 
 ## Data structure
 
 **root/**
 
 - index.html
-- heroesandvillains.html
 - browser.html
 - login.html
 - signup.html
 - **css/**
   - style.css
 - **js/**
-  - main.js
+  - Database.js
   - Signup.js
+  - Login.js
   - User.js
   - Validator.js
-  - superheroapi.js
+  - superheroAPI.js
+  - Navbar.js
 - **assets/**
   - img/
   - fonts/
