@@ -28,12 +28,9 @@ function filterHeroes(event) {
     <p class= "title">Publisher</p>
     <p>${oneObj.biography.publisher}</p>
     <p class= "title">POWERSTATS</p>
-    <ul><li>Intellingece ->${oneObj.powerstats.intelligence}</li>
-    <li>Strength ->${oneObj.powerstats.strength}</li>
-    <li>Speed ->${oneObj.powerstats.speed}</li>
-    <li>Durability ->${oneObj.powerstats.durability}</li>
-    <li>Power ->${oneObj.powerstats.power}</li>
-    <li>Combat ->${oneObj.powerstats.combat}</li></ul>
+    <ul><li>INT ->${oneObj.powerstats.intelligence} · STR -> ${oneObj.powerstats.strength}</li>
+    <li>SPD -> ${oneObj.powerstats.speed} · DUR -> ${oneObj.powerstats.durability}</li>
+    <li>PWR -> ${oneObj.powerstats.power} · COM -> ${oneObj.powerstats.combat}</li></ul>
     <p class= "title">APPEARENCE</p>
     <ul><li>Gender -> ${oneObj.appearance.gender}</li>
     <li>Race -> ${oneObj.appearance.race}</li>
@@ -47,7 +44,7 @@ function filterHeroes(event) {
 function superHeroes() {
   const section = document.querySelector(".superhero-list");
 
-  for (let i = 0; i < 600; i++) {
+  for (let i = 0; i < 300; i++) {
     fetch(`https://superheroapi-m1.herokuapp.com/heroes/${i + 1}`)
       .then((response) => {
         return response.json();
@@ -66,12 +63,9 @@ function superHeroes() {
         <p class= "title">Publisher</p>
         <p>${data.biography.publisher}</p>
         <p class= "title">POWERSTATS</p>
-        <ul><li>Intellingece ->${data.powerstats.intelligence}</li>
-        <li>Strength ->${data.powerstats.strength}</li>
-        <li>Speed ->${data.powerstats.speed}</li>
-        <li>Durability ->${data.powerstats.durability}</li>
-        <li>Power ->${data.powerstats.power}</li>
-        <li>Combat ->${data.powerstats.combat}</li></ul>
+        <ul><li>INT -> ${data.powerstats.intelligence} · STR -> ${data.powerstats.strength}</li>
+        <li>SPD -> ${data.powerstats.speed} · DUR -> ${data.powerstats.durability}</li>
+        <li>PWR -> ${data.powerstats.power} · COM -> ${data.powerstats.combat}</li></ul>
         <p class= "title">APPEARENCE</p>
         <ul><li>Gender -> ${data.appearance.gender}</li>
         <li>Race -> ${data.appearance.race}</li>
