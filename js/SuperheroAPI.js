@@ -44,7 +44,7 @@ function filterHeroes(event) {
 function superHeroes() {
   const section = document.querySelector(".superhero-list");
 
-  for (let i = 0; i < 600; i++) {
+  for (let i = 0; i < 300; i++) {
     fetch(`https://superheroapi-m1.herokuapp.com/heroes/${i + 1}`)
       .then((response) => {
         return response.json();
