@@ -21,9 +21,9 @@ class Signup {
 
     const errors = validator.getErrors();
 
-    // si el nombre del email es valido
+    // si el nombre del email es correcto
     if (!errors.invalidEmailError) {
-      // comprueba si el email es unico
+      // comprueba si el email no se repite
       validator.validateUniqueEmail(email);
     }
 
@@ -107,7 +107,7 @@ class Signup {
     }
 
     const successMessageP = document.createElement("p");
-    successMessageP.innerHTML = "La cuenta ha sido creada con exito";
+    successMessageP.innerHTML = "The account has been created successfully";
     successMessageP.classList.add("correct-message");
 
     this.errorsWrapper.appendChild(successMessageP);
