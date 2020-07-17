@@ -36,7 +36,7 @@ h1 {
 h2 {
   color: black;
   font-size: 30px;
-  border-bottom: 3px solid greenyellow;
+  border-bottom: 3px solid #404040;
   display: inline;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -533,10 +533,13 @@ nav li:nth-of-type(4) {
 .signup h2 {
   color: black;
   font-size: 6.8vw;
+  border-bottom: 3px solid red;
 }
+
 .login h2 {
   color: black;
   font-size: 7vw;
+  border-bottom: 3px solid yellow;
 }
 
 .form-wrapper form {
@@ -658,7 +661,11 @@ p {
   margin-left: 30%;
   font-size: 25px;
   background: none;
-  border-bottom: 2px yellow solid;
+  border-bottom: 2px greenyellow solid;
+}
+
+.searchBar input::placeholder {
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 1024px) {
