@@ -53,7 +53,7 @@ Create a page with all the universes (Marvel, DC, Star Trek, Star Wars, etc.) an
 
 ### Trello
 
-[Trello Kanban board](https://trello.com/b/Do9COfrX)
+[Trello Kanban board](https://trello.com/b/m7Rh5X8Q)
 
 ### Github
 
