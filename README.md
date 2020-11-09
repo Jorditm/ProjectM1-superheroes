@@ -55,9 +55,10 @@ Create a page with all the universes (Marvel, DC, Star Trek, Star Wars, etc.) an
 
 [Trello Kanban board](https://trello.com/b/m7Rh5X8Q)
 
-### Github
+### Deploy
 
-[Gihub Repo URL](https://github.com/Jorditm/ProjectM1-superheroes)
+[Heroes & Villains URL](https://jorditm.github.io/ProjectM1-superheroes/)
 
-### Slides
+
+
 
